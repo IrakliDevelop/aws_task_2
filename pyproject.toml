@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "task-2"
+version = "0.1.0"
+description = "CLI script for task 2 of AWS for Python at BTU"
+authors = ["Irakli Iremashvili"]
+readme = "README.md"
+packages = [{include = "task_2"}]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+boto3 = "^1.26.159"
+python-dotenv = "^1.0.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
